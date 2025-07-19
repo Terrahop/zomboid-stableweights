@@ -19,15 +19,15 @@ local JSStableWeightsLastWeight = {};
 --Then we're overriding the weight by our last recorded weight + our modified delta value.
 --If we haven't yet recorded a weight for this player, we just let this minute pass as normal.
 function JSStableWeightsRunStableWeight(player)
-  local rateChangeIncrease = SandboxVars.StableWeightChange.rateChangeIncrease
-  local rateChangeDecrease = SandboxVars.StableWeightChange.rateChangeDecrease
+  local rateChangeIncrease = SandboxVars.StableWeightChange.RateChangeIncrease
+  local rateChangeDecrease = SandboxVars.StableWeightChange.RateChangeDecrease
 
   local playerID = JSStableWeightsGetPlayerID(player);
 
   if (JSStableWeightsLastWeight[playerID]) then
     local weightDelta = player:getNutrition():getWeight() - JSStableWeightsLastWeight[playerID];
 
-    local targetWeight = player.getNutrition():getWeight()
+    local targetWeight = player:getNutrition():getWeight()
 
     if (weightDelta < 0) then
       targetWeight = JSStableWeightsLastWeight[playerID] + weightDelta * rateChangeDecrease;

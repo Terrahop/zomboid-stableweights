@@ -4,7 +4,7 @@
 
 Original [Stable Weights](https://steamcommunity.com/sharedfiles/filedetails/?id=2908032256) updated to b42
 
-> This version exposes weight change increase and decrease factors in the sandbox options instead of just a single scale.
+> This version exposes weight change increase and decrease multipliers in the sandbox options instead of just a single multiplier. By default you gain 50% more weight, and lose 30% less weight.
 
 This is a very simple mod that scales weight gains and losses by an adjustable factor.
 I was annoyed by how quickly my characters' weights changed and how finicky staying at
