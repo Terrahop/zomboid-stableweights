@@ -2,7 +2,7 @@
 
 ## Description
 
-Original [Stable Weights](https://steamcommunity.com/sharedfiles/filedetails/?id=2908032256) updated to b42.
+Original [Stable Weights](https://steamcommunity.com/sharedfiles/filedetails/?id=2908032256) updated to B42.
 Original description below
 
 > This version exposes weight change increase and decrease multipliers in the sandbox options instead of just a single multiplier. By default you gain 50% more weight, and lose 30% less weight.
