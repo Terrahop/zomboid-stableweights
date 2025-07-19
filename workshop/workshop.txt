@@ -1,6 +1,31 @@
 version=1
 id=3529361118
 title=[B42] Stable Weights
-description=This is a B42 ONLY update to the original mod by JS, original description below
+description=[h3] This is a B42 ONLY update to the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2908032256] mod [/url] by JS, original description below [/h3]
+description=
+description=[h3] [i] This version exposes separate weight change increase and decrease multipliers in the sandbox options instead of just a single multiplier. By default you gain 50% more weight, and lose 30% less weight. [/i] [/h3]
+description=
+description=[h2] Description [/h2]
+description=
+description=This is a very simple mod that scales weight gains and losses by an adjustable factor. I was annoyed by how quickly my characters' weights changed and how finicky staying at a healthy weight felt, so I decided to make this mod.
+description=
+description=[h2] How It Works [/h2]
+description=
+description=Every ten in-game minutes, this mod calculates each player's change in weight, then scales it by a factor that can be set in sandbox options.
+description=
+description=[h2] Compatibility [/h2]
+description=
+description=There shouldn't be compatibility issues, but if some crazy mod depends on changes in player weights, it's possible this mod could disrupt it.
+description=
+description=You should be able to add this mod to existing saves with no issues.
+description=
+description=[h2] Multiplayer [/h2]
+description=
+description=I'm a very amateur modder and this mod was only minimally tested in a locally hosted server, so I can't guarantee it will work in multiplayer.
+description=
+description=[url=https://github.com/Terrahop/zomboid-stableweights] Github [/url]
+description=
+description=Workshop ID: 3529361118
+description=Mod ID: StableWeightChange
 tags=Build 42;Balance;Food
-visibility=private
+visibility=public
