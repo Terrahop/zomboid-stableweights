@@ -1,0 +1,8 @@
+Sandbox_EN = {
+
+	Sandbox_StableWeightChange_RateChangeIncrease = "Weight Increase Multiplier",
+	Sandbox_StableWeightChange_RateChange_tooltip = "Mutliplies each player's increase in weight.\nDoes not affect calories or weight loss thresholds.",
+
+	Sandbox_StableWeightChange_RateChangeDecrease = "Weight Increase Multiplier",
+	Sandbox_StableWeightChange_RateChangeDecrease_tooltip = "Mutliplies each player's decrease in weight.\nDoes not affect calories or weight loss thresholds.",
+}

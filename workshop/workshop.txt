@@ -1,0 +1,6 @@
+version=1
+id=3529361118
+title=[B42] Stable Weights
+description=This is a B42 ONLY update to the original mod by JS, original description below
+tags=Build 42;Balance;Food
+visibility=private
