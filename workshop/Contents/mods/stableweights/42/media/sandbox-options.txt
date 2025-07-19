@@ -2,14 +2,14 @@ VERSION = 1,
 
 option StableWeightChange.RateChangeDecrease
 {
-	type = double, min = 0, max = 1, default = 0.5,
-	page = Character,
-	translation = JSStableWeights_RateChangeDecrease,
+	type = double, min = 0, max = 0.7, default = 0.5,
+	page = StableWeights,
+	translation = StableWeightChange_RateChangeDecrease,
 }
 
-option StableWeightChange.RateChangeIncrase
+option StableWeightChange.RateChangeIncrease
 {
-	type = double, min = 1, max = 5, default = 2,
-	page = Character,
-	translation = JSStableWeights_RateChangeIncrease,
+	type = double, min = 1, max = 5, default = 1.5,
+	page = StableWeights,
+	translation = StableWeightChange_RateChangeIncrease,
 }
