@@ -2,7 +2,7 @@ VERSION = 1,
 
 option StableWeightChange.RateChangeDecrease
 {
-	type = double, min = 0, max = 0.7, default = 0.5,
+	type = double, min = 0, max = 1.0, default = 0.7,
 	page = StableWeights,
 	translation = StableWeightChange_RateChangeDecrease,
 }
